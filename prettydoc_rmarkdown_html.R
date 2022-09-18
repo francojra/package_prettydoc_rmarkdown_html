@@ -22,4 +22,17 @@ library(prettydoc)
 ### e então, clique em From Template.
 ### 3 - Selecione a opção Lightweight and Pretty Document (HTML) e
 ### então, clique em OK.
+### 4 - Um documento R Markdown será criado.
 
+# Alguns detalhes para personalização do documento -----------------------------------------------------------------------------------------
+
+### O importante aqui é o cabeçalho YAML (parte destacada na imagem), 
+### ele que vai garantir a personalização do seu relatório.
+
+### Podemos ver na imagem que existe um campo chamado theme, e é 
+### nele que vamos especificar qual template queremos usar no nosso 
+### relatório!
+
+### O prettydoc possui 5 templates, são eles: cayman, tactile, architect, 
+### leonids, hpstr. Para alterar o template, basta modificar o nome no 
+### campo “theme:”. Podemos ver que o template default é o architect.
