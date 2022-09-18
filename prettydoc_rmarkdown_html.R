@@ -36,3 +36,10 @@ library(prettydoc)
 ### O prettydoc possui 5 templates, são eles: cayman, tactile, architect, 
 ### leonids, hpstr. Para alterar o template, basta modificar o nome no 
 ### campo “theme:”. Podemos ver que o template default é o architect.
+
+### Para visualizar cada template, basta colocar o respectivo nome no 
+### campo “theme:”, e apertar o botão Knit.
+
+### Se você já tem algum relatório em R Markdown e quer personalizá-lo, 
+### basta substituir o cabeçalho do seu relatório pelo cabeçalho que foi 
+### gerado pelo prettydoc.
